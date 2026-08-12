@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono, Fraunces } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { LenisWrapper } from "@/components/lenis-wrapper"
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -46,8 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`dark bg-background ${_fraunces.variable}`}>
       <body className="font-sans antialiased">
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <LenisWrapper>
+          {children}
+          {process.env.NODE_ENV === 'production' && <Analytics />}
+        </LenisWrapper>
       </body>
     </html>
   )
