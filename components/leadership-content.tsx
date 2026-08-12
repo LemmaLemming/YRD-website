@@ -7,25 +7,25 @@ const LEADERS = [
   {
     name: "Dr. Hong Bo",
     title: "Chairman",
-    image: "/images/headshot-1.png",
+    image: "/images/leadership/hong_bo.png",
     bio: "A Ph.D. in Management and Senior Economist, Dr. Hong brings decades of top-tier institutional governance to our Hong Kong platform. His leadership history includes serving as Executive Director and CEO of CMB Wing Lung Bank, and General Manager of CMB Hong Kong Branch.",
   },
   {
     name: "Hu Hanyang",
-    title: "Co-Founder",
-    image: "/images/headshot-2.png",
+    title: "Co-Founder & Chairman",
+    image: "/images/leadership/hu_han_yang.png",
     bio: "An Oxford-educated financial architect who has successfully scaled state-approved investment platforms past RMB 100 billion in AUM. He is the only manager in Shandong Province to lead a firm to a continuous Class A Private Equity Manager rating by the Insurance Asset Management Association of China.",
   },
   {
     name: "Jay Ji",
     title: "Executive President",
-    image: "/images/headshot-3.png",
+    image: "/images/leadership/jay_ji.png",
     bio: "A private equity veteran who has managed over $5 billion USD in cumulative AUM globally. He directs our venture pipelines targeting deep-tech, artificial intelligence, biotechnology, and new materials.",
   },
   {
     name: "Jacky Zhang",
     title: "Managing Director",
-    image: "/images/headshot-4.png",
+    image: "/images/leadership/jacky_zhang.png",
     bio: "A decorated financial professional with senior management tenure across state-owned commercial banks and global PE firms. He is a recipient of the National \u201cMay 4th Youth Medal\u201d and a 1st Prize winner in the National Financial System\u2019s \u201cDual Elevation Scheme.\u201d",
   },
 ]
