@@ -5,10 +5,10 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 
 const LEADERS = [
-  { name: "Hong Bo", title: "Chairman", image: "/images/headshot-1.png" },
-  { name: "Hu Hanyang", title: "Chief Executive Officer", image: "/images/headshot-2.png" },
-  { name: "Jay Ji", title: "Chief Investment Officer", image: "/images/headshot-3.png" },
-  { name: "Jacky Zhang", title: "Head of Operations", image: "/images/headshot-4.png" },
+  { name: "Hong Bo", title: "Chairman", image: "/images/leadership/hong_bo.png" },
+  { name: "Hu Hanyang", title: "Co-Founder & Chairman", image: "/images/leadership/hu_han_yang.png" },
+  { name: "Jay Ji", title: "Executive President", image: "/images/leadership/jay_ji.png" },
+  { name: "Jacky Zhang", title: "Managing Director", image: "/images/leadership/jacky_zhang.png" },
 ]
 
 export function LeadershipSection() {
