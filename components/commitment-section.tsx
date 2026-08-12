@@ -116,6 +116,8 @@ export function CommitmentSection() {
                   left: 0,
                   bottom: 40,
                 }}
+                barGap={4}
+                barCategoryGap="20%"
               >
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="oklch(0.29 0.02 55)" />
                 <XAxis
@@ -156,28 +158,18 @@ export function CommitmentSection() {
                 <Bar
                   dataKey="strategy"
                   name="Dual-Track Strategy (Simulated)"
-                  barSize={30}
+                  fill="#caac65"
+                  maxBarSize={40}
                 >
-                  {CHART_DATA.map((entry, index) => (
-                    <Cell
-                      key={`cell-strategy-${index}`}
-                      fill={entry.strategy >= 0 ? '#caac65' : '#8c7646'}
-                    />
-                  ))}
                   <CustomLabel />
                 </Bar>
 
                 <Bar
                   dataKey="hsi"
                   name="Hang Seng Index"
-                  barSize={30}
+                  fill="#988764"
+                  maxBarSize={40}
                 >
-                  {CHART_DATA.map((entry, index) => (
-                    <Cell
-                      key={`cell-hsi-${index}`}
-                      fill={entry.hsi >= 0 ? '#988764' : '#5b4c2b'}
-                    />
-                  ))}
                   <CustomLabel />
                 </Bar>
               </BarChart>
