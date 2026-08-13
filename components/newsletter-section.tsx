@@ -21,7 +21,7 @@ export function NewsletterSection() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="mb-16 flex flex-col items-center gap-4 text-center"
         >
-          <span className="text-xs uppercase tracking-[0.35em] text-primary/90">Insights</span>
+          <span className="text-xs uppercase tracking-[0.35em] text-primary/90">Insights \(coming soon)\</span>
           <h2 className="text-balance font-serif text-3xl text-foreground sm:text-4xl md:text-5xl">
             Notes from our desk
           </h2>
