@@ -6,7 +6,6 @@ import { motion } from "framer-motion"
 
 const LEADERS = [
   { name: "Hong Bo", title: "Chairman", image: "/images/leadership/hong_bo.png" },
-  { name: "Hu Hanyang", title: "Co-Founder & Chairman", image: "/images/leadership/hu_han_yang.png" },
   { name: "Jay Ji", title: "Executive President", image: "/images/leadership/jay_ji.png" },
   { name: "Jacky Zhang", title: "Managing Director", image: "/images/leadership/jacky_zhang.png" },
 ]

@@ -37,6 +37,15 @@ export function SiteFooter() {
           market the services of YRD Asset Management Limited or its affiliates to the Hong Kong public.
         </p>
 
+        <div className="flex flex-col gap-2">
+          <p className="text-[11px] leading-relaxed text-muted-foreground/80">
+            [1] SFC registration is not a recommendation or endorsement of an OFC nor does it guarantee the commercial merits of an OFC or its performance. It does not mean the OFC is suitable for all investors nor does it represent an endorsement of its suitability for any particular investor or class of investors.
+          </p>
+          <p className="text-[11px] leading-relaxed text-muted-foreground/80">
+            [2] Past performance, including simulated back-tested data, is not indicative of future returns.
+          </p>
+        </div>
+
         <p className="text-[11px] text-muted-foreground/60">
           &copy; {new Date().getFullYear()} YRD Asset Management Limited. All rights reserved.
         </p>

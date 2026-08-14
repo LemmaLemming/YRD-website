@@ -80,20 +80,16 @@ export function CommitmentSection() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col gap-7"
         >
-          <span className="text-xs uppercase tracking-[0.35em] text-primary/90">Our Commitment</span>
           <h2 className="text-balance font-serif text-3xl leading-tight text-foreground sm:text-4xl md:text-5xl">
             A rigorous, quantitative dual-track strategy
           </h2>
           <p className="max-w-md text-pretty leading-relaxed text-foreground/75">
+            Our OFC framework empowers investors with a comprehensive suite of solutions spanning cash management, fixed income, equities, and alternative investments.<sup>[1]</sup>
+          </p>
+          <p className="max-w-md text-pretty leading-relaxed text-foreground/75">
             We commit to utilizing a rigorous, quantitative dual-track strategy grounded in earnestness, integrity,
             and mutual benefit.
           </p>
-          <a
-            href="/commitments"
-            className="inline-flex w-fit rounded-sm border border-primary/50 px-8 py-3 text-sm uppercase tracking-[0.2em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-          >
-            Our Commitment
-          </a>
         </motion.div>
 
         <motion.div
@@ -104,7 +100,7 @@ export function CommitmentSection() {
           className="rounded-md border border-border bg-card p-6 sm:p-8"
         >
           <p className="mb-1 text-xs uppercase tracking-[0.25em] text-muted-foreground text-center">
-            Simulated Backtest: Dual-Track Strategy vs Hang Seng Index (2020-2025)
+            Simulated Backtest: Dual-Track Strategy vs Hang Seng Index (2020-2025) <sup>[2]</sup>
           </p>
           <div className="h-[400px] w-full sm:h-[500px]">
             <ResponsiveContainer width="100%" height="100%">
@@ -178,6 +174,25 @@ export function CommitmentSection() {
           <p className="mt-4 text-[10px] sm:text-xs text-muted-foreground text-center px-4">
             Disclaimer: Backtest is based on historical data and does not represent future returns. Management and performance fees are not deducted.
           </p>
+        </motion.div>
+      </div>
+      <div className="mx-auto mt-24 max-w-6xl">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-15%" }}
+          transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          className="flex flex-col items-center gap-8 text-center"
+        >
+          <p className="max-w-2xl text-balance font-serif text-2xl text-foreground sm:text-3xl">
+            We are committed to serving as the most trusted capital partner for investors and entrepreneurs
+          </p>
+          <a
+            href="/commitments"
+            className="inline-flex w-fit rounded-sm border border-primary/50 px-8 py-3 text-sm uppercase tracking-[0.2em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+          >
+            Our Commitment
+          </a>
         </motion.div>
       </div>
     </section>
